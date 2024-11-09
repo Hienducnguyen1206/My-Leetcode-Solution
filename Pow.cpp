@@ -8,11 +8,13 @@ public:
             return 1;
         }
 
-        if(x==0){
-            return 0;
-        }
+        
 
         if(n<0){
+            if(x==0){
+             return -1 
+            }
+
             x = 1/x;
             n = n*-1;
         }
